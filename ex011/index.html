@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medias</title>
+</head>
+<body>
+    <h1><strong>Imagens dinamicas</strong></h1>
+    <p>Tente abrir este site em varios dispositivos diferentes</p>
+    <picture>
+        <source media="(max-width: 700px )" srcset="img/fotop-png.png" type="image/png">
+        <source media="(max-width: 1000px )" srcset="img/fotom-png.png" type="image/png">
+        <img src="img/fotog-png.png" alt="foto flexivel">
+        <source media="(max-width: 1800px )" srcset="img/CEOBE.png" type="image/png">
+    </picture>    
+</body>
+</html>
